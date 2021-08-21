@@ -6,7 +6,7 @@
   "build": {
     "distDir": "../dist",
     "devPath": "http://localhost:3000",
-    "beforeDevCommand": "pnpm dev",
+    "beforeDevCommand": "",
     "beforeBuildCommand": "pnpm build"
   },
   "tauri": {
@@ -54,9 +54,9 @@
     "windows": [
       {
         "title": "scratchy-tauri",
-        "width": 800,
-        "height": 600,
-        "resizable": true,
+        "width": 400,
+        "height": 550,
+        "resizable": false,
         "fullscreen": false
       }
     ],

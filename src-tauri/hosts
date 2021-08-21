@@ -1,0 +1,11 @@
+127.0.0.1	localhost
+::1		localhost
+127.0.1.1	lemurpro.localdomain	lemurpro
+# 192.168.49.2	scratchy.localdomain
+127.0.0.1	scratchy.localdomain
+127.0.0.1	thepolyglot.dev
+
+#### Jason
+127.0.0.1	facebook.com
+127.0.0.1	twitter.com
+#### JasonEnd

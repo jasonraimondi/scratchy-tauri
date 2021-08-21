@@ -4,28 +4,30 @@ specifiers:
   '@sveltejs/adapter-static': ^1.0.0-next.16
   '@sveltejs/kit': next
   '@tauri-apps/api': ^1.0.0-beta.6
-  '@tauri-apps/cli': ^1.0.0-beta.8
+  '@tauri-apps/cli': ^1.0.0-beta.9
+  normalize.css: ^8.0.1
   prettier: ~2.2.1
-  prettier-plugin-svelte: ^2.2.0
-  svelte: ^3.34.0
-  svelte-check: ^2.0.0
-  svelte-preprocess: ^4.0.0
-  tslib: ^2.0.0
-  typescript: ^4.0.0
+  prettier-plugin-svelte: ^2.3.1
+  svelte: ^3.42.1
+  svelte-check: ^2.2.4
+  svelte-preprocess: ^4.7.4
+  tslib: ^2.3.1
+  typescript: ^4.3.5
 
 dependencies:
   '@tauri-apps/api': 1.0.0-beta.6
 
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.16
-  '@sveltejs/kit': 1.0.0-next.151_svelte@3.42.1
-  '@tauri-apps/cli': 1.0.0-beta.8
+  '@sveltejs/kit': 1.0.0-next.154_svelte@3.42.1
+  '@tauri-apps/cli': 1.0.0-beta.9
+  normalize.css: 8.0.1
   prettier: 2.2.1
   prettier-plugin-svelte: 2.3.1_prettier@2.2.1+svelte@3.42.1
   svelte: 3.42.1
   svelte-check: 2.2.4_svelte@3.42.1
   svelte-preprocess: 4.7.4_svelte@3.42.1+typescript@4.3.5
-  tslib: 2.1.0
+  tslib: 2.3.1
   typescript: 4.3.5
 
 packages:
@@ -78,8 +80,8 @@ packages:
     resolution: {integrity: sha512-xGFcg+GHF0BL1fyWx2vCzlYj4S4R+Od9cF00soo1TVp/scGOi1G9grSYYW4x5H+iDn1sscoJ65OGBGWIcOgrXg==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.151_svelte@3.42.1:
-    resolution: {integrity: sha512-dioqHt4XxqiZ+5dEL6hFG1fBuVMc5t9l9bmvUeJX6neyut432IcVLdl4t3utmD10Lu8fbybJPRkHy1PVAbHWwQ==}
+  /@sveltejs/kit/1.0.0-next.154_svelte@3.42.1:
+    resolution: {integrity: sha512-3WqdmZyTwrAnPtFI5cNLXswGiCx934tfWckS6MLbOTlN6zGtex2H9A2WZKlXRhpxtIM8XqrYlGKr1qNDBmATWQ==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
@@ -137,9 +139,9 @@ packages:
     engines: {node: '>= 12.13.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     dev: false
 
-  /@tauri-apps/cli/1.0.0-beta.8:
-    resolution: {integrity: sha512-aI9gEZfzsMOa8lM3Z62EBpyjQtQElTHcRT3o+AEv4yLyQrhVjVcRHZ5h4Ch7M+SqO52RrQXn9V3o7yLZpdQFmg==}
-    engines: {node: '>= 12.13.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+  /@tauri-apps/cli/1.0.0-beta.9:
+    resolution: {integrity: sha512-L/fr+iX658blVO2I6ewhRbaoGyB11asd8WrRBG5tpnF5i80igYAUt5XoJNURGspax4blEW0mKPEfnyQ02zJYRQ==}
+    engines: {node: '>= 12.20.0', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     hasBin: true
     dependencies:
       '@tauri-apps/toml': 2.2.4
@@ -1580,8 +1582,8 @@ packages:
       ci-info: 2.0.0
     dev: true
 
-  /is-core-module/2.5.0:
-    resolution: {integrity: sha512-TXCMSDsEHMEEZ6eCA8rwRDbLu55MRGmrctljsBX/2v1d9/GzqHOxW5c5oPSgrUt2vBFXebu9rGqckXGPWOlYpg==}
+  /is-core-module/2.6.0:
+    resolution: {integrity: sha512-wShG8vs60jKfPWpF2KZRaAtvt3a20OAn7+IJ6hLPECpSABLcKtFKTTI4ZtH5QcBruBHlq+WsdHWyz0BCZW7svQ==}
     dependencies:
       has: 1.0.3
     dev: true
@@ -2035,6 +2037,10 @@ packages:
   /normalize-url/6.1.0:
     resolution: {integrity: sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==}
     engines: {node: '>=10'}
+    dev: true
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
     dev: true
 
   /npm-conf/1.1.3:
@@ -2536,7 +2542,7 @@ packages:
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
     dependencies:
-      is-core-module: 2.5.0
+      is-core-module: 2.6.0
       path-parse: 1.0.7
     dev: true
 
@@ -3149,6 +3155,10 @@ packages:
 
   /tslib/2.1.0:
     resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
+    dev: true
+
+  /tslib/2.3.1:
+    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
     dev: true
 
   /tunnel-agent/0.6.0:
